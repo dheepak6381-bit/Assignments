@@ -1,0 +1,8 @@
+public class CompareToIgnoreCaseExample {
+    public static void main(String[] args) {
+        String s1 = "Hello";
+        String s2 = "hello";
+        int result = s1.compareToIgnoreCase(s2);
+        System.out.println("compareToIgnoreCase result: " + result);
+    }
+}
